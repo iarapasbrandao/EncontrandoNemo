@@ -1,0 +1,39 @@
+[
+  {
+    "classifier_id": "default",
+    "name": "default",
+    "classes": [
+      {
+        "class": "Nemo",
+        "score": 1.000
+      }
+      
+    ],
+    "display": "General Model",
+    "description": "Quickly understand objects, actions, scenes, and colors within an image."
+  },
+  {
+    "classifier_id": "food",
+    "name": "food",
+    "classes": [
+      {
+        "class": "non-food",
+        "score": 0.998
+      }
+    ],
+    "display": "Food Model",
+    "description": "Identify meals and food items with enhanced accuracy."
+  },
+  {
+    "classifier_id": "explicit",
+    "name": "explicit",
+    "classes": [
+      {
+        "class": "not explicit",
+        "score": 0.991
+      }
+    ],
+    "display": "Explicit Model",
+    "description": "Determine if an image contains nudity or other inappropriate content."
+  }
+]
